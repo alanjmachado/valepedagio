@@ -1,0 +1,14 @@
+Funcionalidade
+    Cenario
+Dado
+Quando
+E 
+Entao 
+
+Funcionalidade Setup Adicionar Produto Vale Pedagio Parceiro
+ 
+Cenario: Criar Produto Vale Pedagio Parceiro
+Dado que eu quero Adicionar Produto Vale Pedagio Parceiro para um ClienteCNPJ novo
+Quando consultar o Meus Produtos
+Entao  
+And 

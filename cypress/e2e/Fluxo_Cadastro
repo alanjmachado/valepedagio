@@ -1,0 +1,16 @@
+Ter um CNPJ no gerador de CNPJ DEV
+Acessar com usuário admin comercial
+Admin > Cadastro > Pessoas http://localhost:2647/Admin/Cadastros
+Opção Novo Cadastro
+    CNPJ do estabelecimento > CPF do Responsável > Tipo Cadastro
+Meus Produtos: Adicionar Produto Vale Pedagio Parceiro
+Cadastro de novo produto vale pedágio Parceiro
+    Cliente CNPJ/RazãoSocial > Modalidade: PréPago > Tag fechamento: D+3 > Valor Mensalidade :$$$ > Taxa: %%%
+Na mesma tela de "Meus Produtos", opção "Notificar remessa de Crédito"
+    Empresa"CNPJ > Produto modalidade "opção configurada > E-mail > Repita o e-mail
+
+
+
+it('Impersonate Usuário Comercial', () => {
+        cy.visit('http://localhost:2647/Admin/Cadastros')
+        cy.get('#CPF')
